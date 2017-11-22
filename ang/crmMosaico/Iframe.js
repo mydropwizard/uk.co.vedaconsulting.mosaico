@@ -26,7 +26,7 @@
           var c = CRM.crmMosaico || {};
           var top = 0, left = 0, width = $(window).width(), height = $(window).height();
           if (c.topNav && $(c.topNav).length > 0) {
-            top = $(c.topNav).height();
+            top = $(c.topNav).outerHeight();
             height -= top;
           }
           if (c.leftNav && $(c.leftNav).length > 0) {
